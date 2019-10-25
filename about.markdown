@@ -21,13 +21,14 @@ family and stuff
 - HoodooDigital [https://hoodoo.digital/](https://hoodoo.digital/) *remote*
 - Abstracta [https://abstracta.us](https://abstracta.us) *Berlin office*
 - HelloFresh [(https://www.hellofresh.com/](https://www.hellofresh.com/) *remote*
+- currently building a proyect bigger than me. wait for it ;)
 
-**accomplishment**
+**achivements**
 
 - founder of a local *software testing* community [TestingCR] (https://www.facebook.com/groups/testingCR/). _currently a member_
 - first costarican to get certified as ISTQB: Advanced Level - Technical Test Analyst **now there are more :)**
 
 
-*if you are interested in software testing services or hiring me please shoot me an email and I will check it (I don't get a lot of emails so I won't skip it).*
+*if you are interested in software testing services or hiring me please shoot me an email and I will check it (I don't get a lot of emails so I won't skip it)*
 
 

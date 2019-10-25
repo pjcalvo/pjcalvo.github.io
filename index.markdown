@@ -4,3 +4,4 @@
 
 layout: home
 ---
+want to know about me? follow my posts and check my resume [/about](/about) 

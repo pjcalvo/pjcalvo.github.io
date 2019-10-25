@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Life works in misterious ways"
+title:  "life works in misterious ways"
 date:   2019-10-25 11:51:10 +0200
 categories: personal
 ---
