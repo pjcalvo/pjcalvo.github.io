@@ -25,7 +25,7 @@ family and stuff
 
 **achivements**
 
-- founder of a local *software testing* community [TestingCR] (https://www.facebook.com/groups/testingCR/). _currently a member_
+- founder of a local *software testing* community [TestingCR](https://www.facebook.com/groups/testingCR/) ~~currently a member~~
 - first costarican to get certified as ISTQB: Advanced Level - Technical Test Analyst **now there are more :)**
 
 
