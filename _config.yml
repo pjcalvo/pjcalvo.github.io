@@ -34,3 +34,5 @@ linkedin_username: pjcalvo
 theme: minima
 plugins:
   - jekyll-feed
+
+google_analytics: UA-139143178-4
