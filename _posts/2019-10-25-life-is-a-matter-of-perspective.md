@@ -4,7 +4,7 @@ title:  "life works in misterious ways"
 date:   2019-10-25 11:51:10 +0200
 categories: personal
 ---
-I have been working extra these days so my wife has to also work extra and take care of the babies, me and helself.
+I have been working extra these days so my wife has to also work extra and take care of the babies, me and herself.
 
 Yesterday I went to the supermarket after a rough night of overworking, I was like: "Oh I am going to buy her a coke, or a chocolate, something nice for being there".
 so I picked a lot of stuff: fruits, some nice lunch, icecream, coke, chocolate (yeah suhar), and when I went to pay it was a bill of €26, but I couldn't pay.
@@ -17,4 +17,4 @@ she slowly passed the products on the reader, she looked at me again, it was aga
 she started smiling a look, and said some funny things on German (I live in Berlin, but I don't speak the language), she smiled more, almost laughed, she 
 had a moment of joy. this only happened because of a bad experience the last day.
 
-Life works in misterious ways!!
+Life works in mysterious ways!!
