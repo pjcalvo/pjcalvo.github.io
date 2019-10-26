@@ -2,7 +2,7 @@
 layout: post
 title:  "life works in misterious ways"
 date:   2019-10-25 11:51:10 +0200
-categories: personal
+categories: "personal"
 ---
 I have been working extra these days, so my wife has to also work extra and take care of the babies, me and herself.
 
