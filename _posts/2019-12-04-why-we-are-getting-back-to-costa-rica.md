@@ -5,7 +5,7 @@ date:   2019-12-04 16:39:00 +0200
 categories: "travel"
 ---
 **in november 2018 I got a job offer at berli, germany. me and my family decided to take it and so we moved to berlin**
-
+ 
 and berlin has been great so far. coming here has been a roller coaster of emotions and experiences, one day you are taking a bath at 40 degrees outside on a amazing lake and two month later you are almost ice skating over it.
 
 and don't get me started with the job. I was able to join a top notch company that was not afraid of investment, technology or experimentation, which provided me with so many new aknowledge in so many different areas such as development, testing, devops, product, agile management and much more. 
