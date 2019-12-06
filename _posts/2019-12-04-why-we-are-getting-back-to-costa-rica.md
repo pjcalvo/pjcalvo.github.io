@@ -22,10 +22,10 @@ you can get the best icecream in the world (hokey pokey's banana)...<br>
 you will be able to find cheap cloth...<br>
 you can be a veggie and enjoy new recipes and new restaurants everyday...<br>
 you will live in a city full of parties and concerts...<br>
-you can easily go to tech, art, culturas conferences every month...<br>
+you can easily go to tech, art and cultural conferences every month...<br>
 you can try hot wine, which is just great when it is cold...<br>
 you will be able to dress however you want and feel confident about it...<br>
-you can get enjoy great insurance and health care system...<br>
+you can enjoy a great insurance and health care system...<br>
 you will enjoy more being outside and not at a shopping center...<br>
 you will learn how to live with less...<br>
 you can practice whatever sport you want...<br>
