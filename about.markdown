@@ -20,7 +20,6 @@ family and stuff
 **currently working for**
 - HoodooDigital [https://hoodoo.digital/](https://hoodoo.digital/) *remote*
 - Abstracta [https://abstracta.us](https://abstracta.us) *remote*
-- HelloFresh [(https://www.hellofresh.com/](https://www.hellofresh.com/) *Berlin office*
 - currently building a proyect bigger than me. wait for it ;)
 
 **achivements**
