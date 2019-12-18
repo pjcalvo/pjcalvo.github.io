@@ -4,33 +4,33 @@ title:  "testing with python scrapy"
 date:   2019-12-18 11:27:00 +0200
 categories: "testing"
 ---
-# python webcrawler using scrapy to check for broken links
+# python web crawler using scrapy to check for broken links
 **web crawlers are fascinating in terms or auditing a website, they are automated, fast and efficient**
  
 in this article I will provide instructions to build a super simple out of the box web crawler using python and scrapy library to crawl through a given site and generate a .csv report with broken links 
 
 ## pre-requisites
-For this article I will use [python3](https://realpython.com/installing-python/), so make sure that is installed.
+for this article I will use [python3](https://realpython.com/installing-python/), so make sure that is installed.
 
 ## getting started
-First, lets create a project folder and setup a [python environment](https://realpython.com/python-virtual-environments-a-primer/).
+first, lets create a project folder and setup a [python environment](https://realpython.com/python-virtual-environments-a-primer/).
 ```bash
 $ mkdir web-crawler && cd web-crawler
 $ python3 -m venv venv
 $ . venv/bin/activate
 ```
 
-Then we will install all our dependencies, in this case we just need scrapy:
+then we will install all our dependencies, in this case we just need scrapy:
 ```bash
 $ pip install scrapy
 ```
 
-Now, we will create the script that will run the crawler. At this point I will sugges using a content editor (vscode, sublime, pyCharm, notepad++), but I will create the file using the terminal. 
+now, we will create a script that will run the crawler. At this point I will sugges using a content editor (vscode, sublime, pyCharm, notepad++), but I will create the file using the terminal. 
 ``` bash
 $ touch script.py
 ```
 
-Lets open the file and start scripting.
+let's open the file and start scripting.
 
 [!NOTE]
 This is python be careful about indentation.
@@ -46,7 +46,7 @@ from scrapy.item import Item, Field
 ```
 
 ### Model
-Scrapy.CrawlSpider require that we return a Item object, this will contain the data that will be reported.
+*Scrapy.CrawlSpider* require that we return an *Item* object, this will contain the data that will be reported.
 ```python
 class MyItems(Item):
     referer =Field() # where the link is extracted
@@ -55,7 +55,7 @@ class MyItems(Item):
 ```
 
 ### CrawlSpider Class
-scrapy provides an *out of the box* web crawler called CrawlSpider that will crawl the given site based on the defined configuration.
+scrapy provides an *out of the box* web crawler called *CrawlSpider* that will crawl the given site based on the defined configuration.
 
 ```python
 class MySpider(CrawlSpider):
@@ -90,7 +90,7 @@ those who contains *patterToBeExcluded*.
 2. the second rule says: extract all unique links but do not follow them and exclude
 those who contains *patterToBeExcluded*.
 
-**why 2 rules?** in this case we want to make sure our site is not hitting extenal links for broken or 404 pages. for example:
+**why 2 rules?** in this case we want to make sure our site is not hitting external links for broken or 404 pages. for example:
 - www.oursite.com -> www.google.com/this/does/not/exist
 
 ### the callback
@@ -114,7 +114,7 @@ $ scrapy runspider script.py -o report-file.csv
 ```
 
 ### look at the report
-during th execution of the crawler the `report-file.csv` will be populated.
+during the execution of the crawler the `report-file.csv` will be populated.
 
 ## more
 please read more about the library on their official site, it is full of really useful information, how to deploy,
@@ -124,12 +124,11 @@ creating custom spiders, and much more.
 [link for this repo](./samples/web-crawler)
 
 ## final notes
-please be aware that this is a super simple script, so don't ask for best practices, scalability or anything else. this tool
-is meant to be a starting point so that you can build a customized script that will suite your needs properly.
+please be aware that this is a super simple script, so don't ask for best practices, scalability or anything out of the scope of this post. this tool is meant to be a starting point so that you can build a customized script that will suite your needs properly.
 
 [!NOTE]
 Many many pages out there will block most of the crawlers unless they provide explicit rules, please look at `robots.txt` file
 that typically leave under the base domain for rules and guidelines. [https://www.adobe.com/robots.txt](https://www.adobe.com/robots.txt)
 
 
-cheers :)
+cheers :) and happy crawling
