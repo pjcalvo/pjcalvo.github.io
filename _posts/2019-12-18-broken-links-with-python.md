@@ -45,7 +45,7 @@ from scrapy.item import Item, Field
 
 ```
 
-### Model
+### model
 *Scrapy.CrawlSpider* require that we return an *Item* object, this will contain the data that will be reported.
 ```python
 class MyItems(Item):
@@ -54,7 +54,7 @@ class MyItems(Item):
     status = Field() # status code received
 ```
 
-### CrawlSpider Class
+### crawlspider class
 scrapy provides an *out of the box* web crawler called *CrawlSpider* that will crawl the given site based on the defined configuration.
 
 ```python
@@ -97,7 +97,8 @@ those who contains *patterToBeExcluded*.
 this is the method that will be called for each link that gets requested. every item that will be returned will be added to the csv report. so here is where can filter out only what we need to report. 
 ```python
     def parse_my_url(self, response):
-      report_if = [200, 404, 400, 500] #list of responses that we want to include on the report
+      # list of response codes that we want to include on the report, we know that 404
+      report_if = [404] 
       if response.status in report_if: # if the response matches then creates a MyItem
           item = MyItems()
           item['referer'] = response.request.headers.get('Referer', None)
@@ -106,6 +107,8 @@ this is the method that will be called for each link that gets requested. every 
           yield item
       yield None # if the response did not match return empty
 ```
+
+knowing that 404 is the **not found page** code, everytime the web crawler hits a page and response 404 then a row will be added to the csv report. modify this list as requested.
 
 ### running the crawler
 so running the crawler is really simple
@@ -116,14 +119,17 @@ $ scrapy runspider script.py -o report-file.csv
 ### look at the report
 during the execution of the crawler the `report-file.csv` will be populated.
 
+![test report](https://github.com/pjcalvo/pjcalvo.github.io/blob/master/resources/web-crawler-report.png?raw=true)
+
 ## more
 please read more about the library on their official site, it is full of really useful information, how to deploy,
 creating custom spiders, and much more.
 
-[scrapy official documentation](https://docs.scrapy.org/en/latest/index.html)
-[link for this repo](./samples/web-crawler)
+[scrapy official documentation](https://docs.scrapy.org/en/latest/index.html)<br>
+full code can be found [here](https://github.com/pjcalvo/pjcalvo.github.io/blob/master/samples/web-crawler/script.py)
 
 ## final notes
+this is a relly simple way to crawl and find broken links, as I see it there is tons of room for adding custom features and custom checks.
 please be aware that this is a super simple script, so don't ask for best practices, scalability or anything out of the scope of this post. this tool is meant to be a starting point so that you can build a customized script that will suite your needs properly.
 
 [!NOTE]
