@@ -4,12 +4,12 @@ title: about
 permalink: /about/
 ---
 
-native costa rican. worked for a year abroad in Berlin. I am very enthusiastic about learning, updating and I am constantly getting hands on with the latests tools. I am also very passionate about teaching software and software testing, I believe that knowledge makes people valuable.
+native costa rican. worked abroad for a year in Berlin. I am constantly learning, updating and getting hands on with the latests tools. I am very passionate about teaching software development and software testing, I strongly believe that knowledge is what makes people valuable.
 
 **currently working for**
 - HoodooDigital [https://hoodoo.digital/](https://hoodoo.digital/) *remote*
 - Abstracta [https://abstracta.us](https://abstracta.us) *remote*
-- currently building a proyect bigger than me. wait for it ;)
+- currently building a project bigger than me. wait for it ;)
 
 **past experiences**
 - HelloFresh [https://hellofresh.com](https://hellofresh.com) *berlin*

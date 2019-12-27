@@ -20,7 +20,8 @@
 
 title: pablocalvo
 email: pc@coffeestain.io
-logo: "resources/coffee-logo.jpg"
+logo: "assets/images/coffee-logo.jpg"
+long-logo: "https://pjcalvo.github.io/assets/images/pablo-calvo-v1.png"
 description: >- # this means to ignore newlines until "baseurl:"
   personal blog for everythng that I want to write about - 
   work, family, sports, life.
