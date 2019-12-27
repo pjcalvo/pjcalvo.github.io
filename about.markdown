@@ -4,27 +4,26 @@ title: about
 permalink: /about/
 ---
 
-hey there. I am pablo calvo a costarican dude with a long career in software engineering, specialized in software testing and software automated frameworks (but I also know other stuff). married and a dad of two
-
-please feel free to look around the blog, i will try to write interesting posts about everything that i do, sports, technology
-family and stuff
-
-**resume**
-
-- write, develop and maintain test automation frameworks, mostly in `java`, `.net`, `javascript`
-- quality assurance practices in general, manual testing, process improvement
-- i also know about devops, ci pipelines, kubernetes, docker
-- currently learning `python`, trying to build a rest api using flask
-
+native costa rican. worked for a year abroad in Berlin. I am very enthusiastic about learning, updating and I am constantly getting hands on with the latests tools. I am also very passionate about teaching software and software testing, I believe that knowledge makes people valuable.
 
 **currently working for**
 - HoodooDigital [https://hoodoo.digital/](https://hoodoo.digital/) *remote*
 - Abstracta [https://abstracta.us](https://abstracta.us) *remote*
 - currently building a proyect bigger than me. wait for it ;)
 
-**achivements**
+**past experiences**
+- HelloFresh [https://hellofresh.com](https://hellofresh.com) *berlin*
+- GorillaLogic [https://gorillalogic.com](https://gorillalogic.com) *costa rica*
+- Informatech.cr [http://informatech.cr](http://informatech.cr) *costa rica*
 
-- founder of a local *software testing* community [TestingCR](https://www.facebook.com/groups/testingCR/) ~~currently a member~~
+**skillset**
+- write, develop and maintain test automation frameworks, mostly in `java`, `.net`, `javascript`
+- quality assurance practices in general, manual testing, process improvement
+- i also know about devops, ci pipelines, kubernetes, docker
+- currently learning `python`, trying to build a rest api using flask
+
+**achivements**
+- founder and ~~admin~~ member of a local *software testing* community [TestingCR](https://www.facebook.com/groups/testingCR/)
 - first costarican to get certified as ISTQB: Advanced Level - Technical Test Analyst **now there are more :)**
 
 

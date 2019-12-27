@@ -1,2 +1,4 @@
 .jekyll-cache/
 venv/
+_site/
+.DS_Store

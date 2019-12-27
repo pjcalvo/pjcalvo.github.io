@@ -20,12 +20,13 @@
 
 title: pablocalvo
 email: pc@coffeestain.io
+logo: "resources/coffee-logo.jpg"
 description: >- # this means to ignore newlines until "baseurl:"
   personal blog for everythng that I want to write about - 
   work, family, sports, life.
   subscribe if you like it, email me if you don't.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://pjcalvo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: pjcalvov
 github_username:  pjcalvo
 linkedin_username: pjcalvo
