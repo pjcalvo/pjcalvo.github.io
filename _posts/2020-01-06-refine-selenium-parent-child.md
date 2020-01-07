@@ -2,7 +2,7 @@
 layout: post
 title:  "revamp selenium: refine the way you use parent-child selectors"
 date:   2020-01-06 10:20:00 +0200
-categories: "revamp, selenium, python"
+categories: "revamp selenium"
 ---
 **always keep in mind that automated tests should work for you...** and should provide enough details on execution failures so all the involved parties spend less time analyzing failures, debugging and fixing problems!
 
