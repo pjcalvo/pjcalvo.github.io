@@ -2,3 +2,4 @@
 venv/
 _site/
 .DS_Store
+.env
